@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import NASAVR from "@/components/NASAVR";
 import VisionFeature from "@/components/VisionFeature";
 
 const Index = () => {
@@ -6,6 +7,7 @@ const Index = () => {
     <div>
    <Hero />
    <VisionFeature />
+   <NASAVR />
     </div>
   );
 };

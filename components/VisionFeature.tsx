@@ -5,11 +5,11 @@ const VisionFeature = () => {
   return (
     <div className="relative">
             <Image src={visionbg} alt="vision" className="absolute h-[100vh] w-full object-cover object-left" />
-   <div className="z-10 absolute ml-10 mt-10 text-[46px]">
+   <div className="z-10 absolute ml-10 mt-10 text-[46px] darker-grotesque">
      1968
      </div>
 
-     <div className="z-10 absolute ml-[8rem] mt-[300px] text-[46px]">
+     <div className="z-10 absolute ml-[8rem] mt-[300px] text-[46px] darker-grotesque">
      First we got vision.
      </div>
     </div>
