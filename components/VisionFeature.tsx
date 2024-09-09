@@ -4,7 +4,7 @@ import visionbg from "../assets/visionbg.svg"
 const VisionFeature = () => {
   return (
     <div className="relative">
-            <Image src={visionbg} alt="vision" className="absolute h-[100vh] w-full object-cover object-left" />
+            <Image src={visionbg} alt="vision" className="absolute h-[100vh]  object-left" />
    <div className="z-10 absolute ml-10 mt-10 text-[46px] darker-grotesque">
      1968
      </div>
