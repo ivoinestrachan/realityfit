@@ -1,16 +1,18 @@
 const End = () => {
   return (
-    <div className="bg-black h-[80vh] text-white">
+    <div className="bg-black h-[80vh] text-white flex flex-col justify-between">
       <div className="text-white pt-20 text-center">
         {" "}
         [random final image of the product spinning]
       </div>
 
-      <div className="text-center">FEEL THE FUTURE</div>
-      <div className="text-center">No, literally</div>
+      <div className="text-center mt-[12rem]">
+        <div className="text-center text-7xl">FEEL THE FUTURE</div>
+        <div className="text-center mt-10">No, literally</div>
+      </div>
 
-      <div className="text-center">
-        <button className="text-center">Preoder Now</button>
+      <div className="text-center mb-10">
+        <button className="text-center bg-white text-black rounded-full px-10 py-3.5">Preorder Now</button>
       </div>
     </div>
   );
