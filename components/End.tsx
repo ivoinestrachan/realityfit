@@ -7,12 +7,12 @@ const End = () => {
       </div>
 
       <div className="text-center mt-[12rem]">
-        <div className="text-center text-7xl">FEEL THE FUTURE</div>
-        <div className="text-center mt-10">No, literally</div>
+        <div className="text-center text-7xl font-darker-grotesque-medium">FEEL THE FUTURE</div>
+        <div className="text-center mt-10 font-darker-grotesque-regular text-3xl">No, literally</div>
       </div>
 
       <div className="text-center mb-10">
-        <button className="text-center bg-white text-black rounded-full px-10 py-3.5">Preorder Now</button>
+        <button className="text-center bg-white text-black rounded-full px-10 py-3 text-[20px] font-darker-grotesque-medium">Preorder Now</button>
       </div>
     </div>
   );

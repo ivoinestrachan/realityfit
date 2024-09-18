@@ -7,14 +7,14 @@ const NASAVR = () => {
       <Image
         src={Nasa}
         alt="vision"
-        className="absolute h-[100vh] w-[50%] object-cover object-right"
+        className="absolute h-[100vh] sm:w-[50%] object-cover sm:object-right"
       />
 
-<div className="z-10 absolute mt-10 text-[46px] darker-grotesque right-20">
+<div className="z-10 absolute mt-10 text-[46px] font-darker-grotesque-regular right-20">
      1985
      </div>
 
-     <div className="z-10 absolute mt-[200px] text-[46px] darker-grotesque right-20">
+     <div className="z-10 absolute mt-[200px] text-[46px] font-darker-grotesque-regular right-20">
      Then, audio.
      </div>
     </div>
