@@ -3,7 +3,7 @@ const End = () => {
     <div className="bg-black h-[80vh] text-white flex flex-col justify-between">
       <div className="text-white pt-20 text-center">
         {" "}
-        [random final image of the product spinning]
+      
       </div>
 
       <div className="text-center mt-[12rem]">
