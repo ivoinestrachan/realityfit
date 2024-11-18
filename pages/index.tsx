@@ -1,7 +1,4 @@
-import End from "@/components/End";
 import Hero from "@/components/Hero";
-import Immersion from "@/components/Immersion";
-import Sitting from "@/components/Sitting";
 import Stages from "@/components/Stages";
 
 const Index = () => {
@@ -9,9 +6,7 @@ const Index = () => {
     <div>
       <Hero />
       <Stages />
-      <Immersion />
-      <Sitting />
-      <End />
+    
     </div>
   );
 };

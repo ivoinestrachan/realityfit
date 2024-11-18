@@ -1,22 +1,23 @@
 import Image from "next/image";
-import vision from "../assets/vision.svg";
-import nasa from "../assets/nava.svg";
-import suit from "../assets/suitpr.svg";
+import vision from "../assets/vision01.svg";
+import nasa from "../assets/nasa01.svg"
+import suit from "../assets/suit01.svg"
+
 
 const Stages = () => {
   return (
-    <div className="bg-black text-white flex py-10 items-center">
-      <div>
-        <Image src={vision} alt="vision" className="ml-10 z-[100px] relative"  />
-      </div>
+    <div className="bg-black text-white flex py-10 items-center justify-center gap-10">
+   <div>
+    <Image src={vision} alt="vision" />
+   </div>
 
-      <div>
-        <Image src={nasa} alt="nasa" />
-      </div>
+   <div>
+    <Image src={nasa} alt="vision" />
+   </div>
 
-      <div>
-  <Image src={suit} alt="suit"  />
-</div>
+   <div>
+    <Image src={suit} alt="vision" />
+   </div>
     </div>
   );
 };
