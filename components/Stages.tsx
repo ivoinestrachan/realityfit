@@ -8,15 +8,15 @@ const Stages = () => {
   return (
     <div className="bg-black text-white flex py-10 items-center justify-center gap-10">
    <div>
-    <Image src={vision} alt="vision" />
+    <Image src={vision} alt="vision" className="h-[550px]"/>
    </div>
 
    <div>
-    <Image src={nasa} alt="vision" />
+    <Image src={nasa} alt="vision" className="h-[550px]" />
    </div>
 
    <div>
-    <Image src={suit} alt="vision" />
+    <Image src={suit} alt="vision" className="h-[550px]" />
    </div>
     </div>
   );

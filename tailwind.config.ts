@@ -9,22 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'darker-grotesque-regular': ['Darker Grotesque', 'sans-serif'],
-        'darker-grotesque-bold': ['Darker Grotesque', 'sans-serif'],
-        'darker-grotesque-light': ['Darker Grotesque', 'sans-serif'],
-        'darker-grotesque-medium': ['Darker Grotesque', 'sans-serif'],
-        'darker-grotesque-semibold': ['Darker Grotesque', 'sans-serif'],
-        'darker-grotesque-extrabold': ['Darker Grotesque', 'sans-serif'],
-        'darker-grotesque-black': ['Darker Grotesque', 'sans-serif'],
+        'baunk': ['baunk', 'sans-serif'],
+        'clash-display-medium': ['ClashDisplay-Medium', 'sans-serif']
     },
     fontWeight: {
-        'darker-grotesque-regular': '400',
-        'darker-grotesque-bold': '700',
-        'darker-grotesque-light': '300',
-        'darker-grotesque-medium': '500',
-        'darker-grotesque-semibold': '600',
-        'darker-grotesque-extrabold': '800',
-        'darker-grotesque-black': '900',
+        'baunk': '400',
     },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
